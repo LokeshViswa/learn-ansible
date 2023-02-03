@@ -1,4 +1,3 @@
-# In Condition for variable we don't need to specify Flower braces
 - name: Demo on condition
   hosts: all
   vars:
@@ -17,3 +16,5 @@
       debug:
         msg: b is true
       when: b
+
+# In Condition for variable we don't need to specify Flower braces
