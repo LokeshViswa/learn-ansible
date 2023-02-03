@@ -18,3 +18,4 @@
       when: b
 
 # In Condition for variable we don't need to specify Flower braces
+# We need to declare variable name  at the time of execution
