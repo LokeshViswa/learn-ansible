@@ -1,8 +1,13 @@
 - name: Demo
   hosts: all
   tasks:
-    - name: Print Hello
-      ansible.builtin.debug:
-        msg: Hello Universe
+    -name: Print Hello
+    ansible.builtin.debug:
+      msg: Hello World
+
+    -name: Print Universe
+    ansible.builtin.debug:
+      msg: Hello Universe
+
 
 
